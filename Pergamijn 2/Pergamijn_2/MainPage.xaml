@@ -2,10 +2,40 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Pergamijn_2"
-             x:Class="Pergamijn_2.MainPage">
+             x:Class="Pergamijn_2.MainPage"
+             BackgroundColor="#667a9b">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout Spacing="5"
+             VerticalOptions="CenterAndExpand">
 
+        <Button 
+            x:Name="Aanbevolen"
+            Margin="5"
+            Text="Aanbevolen"
+            BackgroundColor="#006262">
+        </Button>
+
+        <Button 
+            x:Name="favorieten"
+            Margin="5"
+            Text="favorieten"
+            BackgroundColor="#006262">
+        </Button>
+
+        <Button 
+            x:Name="Live TV"
+            Margin="5"
+            Text="Live TV"
+            BackgroundColor="#006262">
+        </Button>
+        
+        <Button 
+            x:Name="Zoeken"
+            Margin="5"
+            Text="Zoeken"
+            BackgroundColor="#006262">
+        </Button>
+       
+
+    </StackLayout>
 </ContentPage>

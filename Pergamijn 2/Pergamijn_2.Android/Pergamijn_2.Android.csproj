@@ -119,7 +119,7 @@
     <AndroidResource Include="Resources\Drawable\Zoeken.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Drawable\Drawable.PNG" />
+    <AndroidResource Include="Resources\Drawable\Aanbevolen.PNG" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\Favorieten.PNG" />
