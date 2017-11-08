@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pergamijn_4.Instellingen"
+             BackgroundColor="#a3aab7"
+             Title="Instellingen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button 
+            x:Name="BtnAccounts"
+            Margin="5"
+            Text="Accounts"
+            BackgroundColor="#006262">
+            </Button>
+
+            <Button 
+            x:Name="BtnRestricties"
+            Margin="5"
+            Text="Restricties"
+            BackgroundColor="#006262">
+            </Button>
+
+            <Button 
+            x:Name="BtnThemas"
+            Margin="5"
+            Text="Thema's"
+            BackgroundColor="#006262">
+            </Button>
+
+            <Button 
+            x:Name="BtnKids"
+            Margin="5"
+            Text="Kindermodus"
+            BackgroundColor="#006262">
+            </Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

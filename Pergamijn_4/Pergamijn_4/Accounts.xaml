@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pergamijn_4.Accounts"
+             Title="Accounts"
+             BackgroundColor="#a3aab7">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button 
+            x:Name="BtnYoutube"
+            Margin="5"
+            Text="Youtube"
+            BackgroundColor="#006262">
+            </Button>
+
+            <Button 
+            x:Name="BtnNetflix"
+            Margin="5"
+            Text="Netflix"
+            BackgroundColor="#006262">
+            </Button>
+
+            <Button 
+            x:Name="BtnZiggo"
+            Margin="5"
+            Text="Ziggo"
+            BackgroundColor="#006262">
+            </Button>
+        </StackLayout>
+      
+    </ContentPage.Content>
+</ContentPage>

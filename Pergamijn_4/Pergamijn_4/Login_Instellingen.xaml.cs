@@ -10,16 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace Pergamijn_4
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Live_TV_1 : ContentPage
+	public partial class Login_Instellingen : ContentPage
 	{
-		public Live_TV_1 ()
+		public Login_Instellingen ()
 		{
 			InitializeComponent ();
 
-            BtnTV1.Clicked += async (sender, AssemblyLoadEventArgs) =>
+            BtnInstellingenLogin.Clicked += async (sender, args) =>
             {
-                DisplayAlert("Ziggo", "Video begint met afspelen", "OK");
-
+                await Navigation.PushAsync(new Instellingen());
             };
         }
 	}

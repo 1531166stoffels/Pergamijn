@@ -49,7 +49,7 @@
                      WidthRequest="350"
                      VerticalOptions="EndAndExpand">
 
-            <Button x:Name="Instellingen"
+            <Button x:Name="BtnInstellingen"
                     Margin="5"
                     Text="Instellingen"
                     HorizontalOptions="EndAndExpand">

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pergamijn_4.Themas"
+             Title="Thema's"
+             BackgroundColor="#a3aab7">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                x:Name="BtnThema1"
+                Text="Thema1" 
+                BackgroundColor="#006262">
+            </Button>
+
+            <Button
+                x:Name="BtnThema2"
+                Text="Thema2" 
+                BackgroundColor="#006262">
+            </Button>
+
+            <Button
+                x:Name="BtnThema3"
+                Text="Thema3" 
+                BackgroundColor="#006262">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

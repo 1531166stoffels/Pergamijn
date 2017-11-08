@@ -28,6 +28,11 @@ namespace Pergamijn_4
             {
                 await Navigation.PushAsync(new Live_TV_1());
             };
+
+            BtnInstellingen.Clicked += async (sender, args) =>
+            {
+                await Navigation.PushAsync(new Login_Instellingen());
+            };
         }
 	}
 }
