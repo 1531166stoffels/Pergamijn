@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pergamijn_4.Live_TV_1"
+             Title="Live TV"
+             BackgroundColor="#a3aab7">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                x:Name="BtnTV1"
+                Text="TV1" 
+                BackgroundColor="#006262">
+            </Button>
+
+            <Button
+                x:Name="BtnTV2"
+                Text="TV2" 
+                BackgroundColor="#006262">
+            </Button>
+
+            <Button
+                x:Name="BtnTV3"
+                Text="TV3" 
+                BackgroundColor="#006262">
+            </Button>
+
+            <Button
+                x:Name="BtnTV4"
+                Text="TV4" 
+                BackgroundColor="#006262">
+            </Button>
+
+            <Button
+                x:Name="BtnTV5"
+                Text="TV5" 
+                BackgroundColor="#006262">
+            </Button>
+
+            <Button
+                x:Name="BtnTV6"
+                Text="TV6" 
+                BackgroundColor="#006262">
+            </Button>
+
+            <Button
+                x:Name="BtnTV7"
+                Text="TV7" 
+                BackgroundColor="#006262">
+            </Button>
+
+            <Button
+                x:Name="BtnTV8"
+                Text="TV8" 
+                BackgroundColor="#006262">
+            </Button>
+            
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Pergamijn_4.Aanbevolen"
-             BackgroundColor="#a3aab7"
-             Title="Aanbevolen">
+             x:Class="Pergamijn_4.Favorieten"
+             Title="Favorieten"
+             BackgroundColor="#a3aab7">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -17,89 +17,61 @@
             </Grid.ColumnDefinitions>
 
             <Button
-                x:Name="BtnA1"
+                x:Name="BtnF1"
                 Text="1" 
                 Grid.Row="0" 
                 Grid.Column="0" 
                 BackgroundColor="#006262"/>
+                
+                
 
             <Button
-                x:Name="BtnA2"
+                x:Name="BtnF2"
                 Text="2" 
                 Grid.Row="0" 
                 Grid.Column="1" 
                 BackgroundColor="#006262"/>
 
             <Button
-                x:Name="BtnA3"
+                x:Name="BtnF3"
                 Text="3" 
                 Grid.Row="0" 
                 Grid.Column="2" 
                 BackgroundColor="#006262"/>
 
             <Button
-                x:Name="BtnA4"
+                x:Name="BtnF4"
                 Text="4" 
                 Grid.Row="0" 
                 Grid.Column="3" 
                 BackgroundColor="#006262"/>
 
             <Button
-                x:Name="BtnA5"
+                x:Name="BtnF5"
                 Text="5" 
                 Grid.Row="1" 
                 Grid.Column="0" 
                 BackgroundColor="#006262"/>
 
             <Button
-                x:Name="BtnA6"
+                x:Name="BtnF6"
                 Text="6" 
                 Grid.Row="1" 
                 Grid.Column="1" 
                 BackgroundColor="#006262"/>
+                
 
             <Button
-                x:Name="BtnA7"
+                x:Name="BtnF7"
                 Text="7" 
                 Grid.Row="1" 
                 Grid.Column="2" 
                 BackgroundColor="#006262"/>
 
-            <Button
-                x:Name="BtnA8"
-                Text="8" 
-                Grid.Row="1" 
-                Grid.Column="3" 
-                BackgroundColor="#006262"/>
+           
 
-            <Button
-                x:Name="BtnA9"
-                Text="9" 
-                Grid.Row="2" 
-                Grid.Column="0" 
-                BackgroundColor="#006262"/>
-
-            <Button
-                x:Name="BtnA10"
-                Text="10" 
-                Grid.Row="2" 
-                Grid.Column="1" 
-                BackgroundColor="#006262"/>
-
-            <Button
-                x:Name="BtnA11"
-                Text="11" 
-                Grid.Row="2" 
-                Grid.Column="2" 
-                BackgroundColor="#006262"/>
-
-            <Button
-                x:Name="BtnA12"
-                Text="12" 
-                Grid.Row="2" 
-                Grid.Column="3" 
-                BackgroundColor="#006262"/>
         </Grid>
+
 
 
     </ContentPage.Content>
