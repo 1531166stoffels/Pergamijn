@@ -22,21 +22,21 @@
             </Button>
 
             <Button 
-            x:Name="Favorieten"
+            x:Name="BtnFavorieten"
             Margin="5"
             Text="Favorieten" 
             BackgroundColor="#006262">
             </Button>
 
             <Button 
-            x:Name="TV"
+            x:Name="BtnTV"
             Margin="5"
             Text="TV"
             BackgroundColor="#006262">
             </Button>
 
             <Button 
-            x:Name="Zoeken"
+            x:Name="BtnZoeken"
             Margin="5"
             Text="Zoeken"
             BackgroundColor="#006262">
