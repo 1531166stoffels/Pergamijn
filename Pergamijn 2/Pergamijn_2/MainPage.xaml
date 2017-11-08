@@ -23,19 +23,20 @@
         </Button>
 
         <Button 
-            x:Name="Live TV"
+            x:Name="TV"
             Margin="5"
-            Text="Live TV"
+            Text="TV"
             BackgroundColor="#006262">
         </Button>
-        
+
+
         <Button 
             x:Name="Zoeken"
             Margin="5"
             Text="Zoeken"
             BackgroundColor="#006262">
         </Button>
-       
+
 
     </StackLayout>
 </ContentPage>
