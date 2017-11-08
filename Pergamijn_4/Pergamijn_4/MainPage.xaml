@@ -4,39 +4,59 @@
              xmlns:local="clr-namespace:Pergamijn_4"
              x:Class="Pergamijn_4.MainPage"
              BackgroundColor="#a3aab7">
-    
-    <StackLayout Spacing ="5" 
-                 VerticalOptions="CenterAndExpand">
+    <StackLayout x:Name="MainLayout"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand">
 
 
-        <Button 
+        <StackLayout Spacing ="5" 
+                     WidthRequest="350"
+                     VerticalOptions="CenterAndExpand">
+
+            <Button 
             x:Name="Aanbevolen"
             Margin="5"
             Text="Aanbevolen"
             BackgroundColor="#006262">
-        </Button>
+            </Button>
 
-        <Button 
+            <Button 
             x:Name="Favorieten"
             Margin="5"
             Text="Favorieten" 
             BackgroundColor="#006262">
-        </Button>
+            </Button>
 
-        <Button 
+            <Button 
             x:Name="TV"
             Margin="5"
             Text="TV"
             BackgroundColor="#006262">
-        </Button>
+            </Button>
 
-        <Button 
+            <Button 
             x:Name="Zoeken"
             Margin="5"
             Text="Zoeken"
             BackgroundColor="#006262">
-        </Button>
+            </Button>
 
+        </StackLayout>
+
+        <StackLayout Spacing ="5" 
+                     
+                     WidthRequest="350"
+                     VerticalOptions="EndAndExpand">
+
+            <Button x:Name="Instellingen"
+                    Margin="5"
+                    Text="Instellingen"
+                    HorizontalOptions="EndAndExpand">
+            </Button>
+
+
+
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
