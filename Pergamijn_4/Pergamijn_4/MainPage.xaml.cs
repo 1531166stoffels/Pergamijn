@@ -12,6 +12,15 @@ namespace Pergamijn_4
 		public MainPage()
 		{
 			InitializeComponent();
-		}
+
+
+            BtnAanbevolen.Clicked += async (sender, args) =>
+            {
+                await Navigation.PushAsync(new Aanbevolen());
+            };
+
+            
+
+        }
 	}
 }

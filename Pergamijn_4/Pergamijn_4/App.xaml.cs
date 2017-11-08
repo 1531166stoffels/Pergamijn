@@ -13,8 +13,8 @@ namespace Pergamijn_4
 		{
 			InitializeComponent();
 
-			MainPage = new Pergamijn_4.MainPage();
-		}
+            MainPage = new NavigationPage(new MainPage());
+        }
 
 		protected override void OnStart ()
 		{
