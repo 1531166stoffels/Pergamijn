@@ -25,6 +25,20 @@ namespace Pergamijn_4
             {
                 await Navigation.PushAsync(new Themas());
             };
+
+            BtnRestricties.Clicked += async (sender, args) =>
+            {
+                await Navigation.PushAsync(new Restricties());
+            };
+
+            BtnKids.Clicked += async (sender, args) =>
+            {
+                {
+                    await DisplayAlert("Kids", "Kindemodus aanzetten?", "Ja", "Nee");
+                    
+                };
+            };
         }
-	}
+    }
+	
 }
