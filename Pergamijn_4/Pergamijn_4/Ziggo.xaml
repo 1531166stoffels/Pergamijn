@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Pergamijn_4.Login_Instellingen"
-             Title="Instellingen"
+             x:Class="Pergamijn_4.Ziggo"
+             Title="Ziggo"
              BackgroundColor="#a3aab7">
     <ContentPage.Content>
         <StackLayout>
@@ -13,14 +13,11 @@
             <Button 
             x:Name="BtnInstellingenLogin"
             Margin="5"
-            Text="Verder"
+            Text="Login"
             BackgroundColor="#006262"
             HorizontalOptions="CenterAndExpand"
             VerticalOptions="Center">
             </Button>
         </StackLayout>
-        
-
-
     </ContentPage.Content>
 </ContentPage>

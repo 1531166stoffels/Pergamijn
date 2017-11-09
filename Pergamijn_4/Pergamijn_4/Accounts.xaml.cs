@@ -18,20 +18,17 @@ namespace Pergamijn_4
 
             BtnYoutube.Clicked += async (sender, AssemblyLoadEventArgs) =>
             {
-                DisplayAlert("Youtube", "Gebruikersnaam + Wachtwoord", "LOGIN");
-
+                await Navigation.PushAsync(new Youtube());
             };
 
             BtnNetflix.Clicked += async (sender, AssemblyLoadEventArgs) =>
             {
-                DisplayAlert("Netflix", "Gebruikersnaam + Wachtwoord", "LOGIN");
-
+                await Navigation.PushAsync(new Netflix());
             };
 
             BtnZiggo.Clicked += async (sender, AssemblyLoadEventArgs) =>
             {
-                DisplayAlert("Ziggo", "Gebruikersnaam + Wachtwoord", "LOGIN");
-
+                await Navigation.PushAsync(new Ziggo());
             };
         }
 	}
